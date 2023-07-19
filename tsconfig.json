@@ -1,0 +1,26 @@
+{
+  "compilerOptions": {
+    "lib": ["ES6"],
+    "incremental": true,
+    "outDir": "./build",
+    "rootDirs": ["src", "tests"],
+    "target": "es2021",
+    "sourceMap": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    // "baseUrl": "src",
+    // "paths": {
+    //   "@/*": ["*"],
+    //   "@/tests/*": ["../tests/*"]
+    // },
+    "strict": true,
+    "noImplicitOverride": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true
+  },
+  "include": ["src"],
+}
