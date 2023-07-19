@@ -5,7 +5,7 @@ export interface CarProps {
   modelYear: string;
   licensePlate: string;
   code: string;
-  msrp: string;
+  msrp: number;
   deletedAt?: Date;
   createdAt?: Date;
   updatedAt?: Date;
