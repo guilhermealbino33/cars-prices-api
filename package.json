@@ -1,0 +1,27 @@
+{
+  "name": "cars-prices-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/guilhermealbino33/cars-prices-api.git",
+  "author": "Guilherme Albino <guilhermealbino33@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^18.8.0",
+    "@typescript-eslint/eslint-plugin": "^5.9.0",
+    "@typescript-eslint/parser": "^5.9.0",
+    "eslint": "^8.24.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^5.1.0",
+    "prettier": "^2.5.1",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^4.5.5"
+  }
+}
